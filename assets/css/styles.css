@@ -25,3 +25,39 @@ pre {
 pre code {
   white-space: pre-line;
 }
+.ol {
+  color: pink;
+  text-align: center;
+  text-transform: lowercase;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: cursive;
+  font-size: 45;
+  font-style: italic;
+  font-weight: bolder;
+  background-color: blue;
+  background-image: repeating-linear-gradient();
+  list-style-type: georgian;
+}
+#imagewow{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  padding: inherit;
+  border: dotted;
+}
+.section4 {
+  border: solid;
+  color: red;
+  
+}
+.section6 {
+  color: hotpink;
+}
+h2 {
+  color: limegreen;
+
+}
+.h2 {
+  color: purple;
+}
