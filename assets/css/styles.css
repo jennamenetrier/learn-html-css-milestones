@@ -49,7 +49,7 @@ pre code {
 .section4 {
   border: solid;
   color: red;
-  
+
 }
 .section6 {
   color: hotpink;
@@ -60,4 +60,28 @@ h2 {
 }
 .h2 {
   color: purple;
+}
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+svg{
+  width:100%;
+  height:100%;
+}
+@media{
+
+
+.container-fluid  (max-width: 1399.98px){
+  display:block;
+}}
+@media (min-width: 0px) and (max-width: 1199px){
+  .container {
+    display: block;
+  }
 }
