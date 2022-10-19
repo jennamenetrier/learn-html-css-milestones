@@ -5,11 +5,22 @@
     <title></title>
   </head>
   <body>
-    
+
 <h1>Basic Tags in HTML</h1>
+<style>
+ .hotpink {
+   color: hotpink;
+ }
+ #first-header {
+   color: pink;
+ }
+ .border {
+   border: dotted;
+ }
+ </style>
 <br>
-<section id=section1>
-<h2>This is the Block-level text container</h2>
+<section id=section1 class="hotpink">
+<h2 id="first-header">This is the Block-level text container</h2>
 <p>this is the paragraph tag</p>
 <blockquote cite="https://github.com/jennamenetrier/learn-html-css-milestones">
   This is an example of a blockquote
@@ -18,7 +29,7 @@
 </section>
 <br>
 <section id=section2>
-    <h2>This is inline text styling</h2>
+    <h2 id="first-header">This is inline text styling</h2>
 <ul>
     <li><em>Emphasis</em></li>
     <li><i>Italic</i></li>
@@ -27,7 +38,7 @@
 </ul>
 </section>
 <br>
-<section id=section3>
+<section id=section3 class="border">
   <ol>
     <li><a href="https://www.figma.com/file/p3ePfe8buEmYG62fGX00ii/DIG-245-Bootstrap-Grid-Wireframe-(Copy)?node-id=1%3A2">Link to my figma design</a></li>
   </ol>
@@ -42,7 +53,7 @@
   <ol>
     <li><h1>Heading1</h1></li>
     <ul>
-      <li><h2>Heading2</h2></li>
+      <li><h2 id="first-header">Heading2</h2></li>
       <li><h3>Heading3</h3></li>
       <li><h4>Heading4</h4></li>
       <li><h5>Heading5</h5></li>

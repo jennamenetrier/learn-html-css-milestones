@@ -85,3 +85,12 @@ svg{
     display: block;
   }
 }
+.button1 {
+  color: green;
+}
+.button2 {
+  color: yellow;
+}
+.button3 {
+  color:red;
+}
